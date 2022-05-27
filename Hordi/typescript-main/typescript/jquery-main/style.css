@@ -21,3 +21,16 @@ input{
     text-align:center;
 }
 
+#submit{
+	margin-top:30px;
+	padding:13px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	color:Whitesmoke;
+	background-color:blue;
+	transition:2s ease;
+}
+
+#submit:hover{
+	
+	background-color:teal;
+}

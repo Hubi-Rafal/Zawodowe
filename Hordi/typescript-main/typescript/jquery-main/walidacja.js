@@ -1,5 +1,16 @@
 
-
+$('#nick').on('blur', function() {
+		var input = $(this);
+		var nick_length = input.val().length;
+		if(nick_length >= 5 && nick_length <= 15)
+        {
+			input.removeClass("invalid").addClass("valid");
+		}
+		else
+        {
+			input.removeClass("valid").addClass("invalid");			
+		}
+});
 
 $('#name').on('blur', function() {
 		var input = $(this);
@@ -146,6 +157,18 @@ $('#pesel').on('blur', function() {
             input.removeClass("valid").addClass("invalid");
         }
         
+		if(tab1[9]== 1 || tab1[9]== 3 || tab1[9]== 5|| tab1[9]== 7 ||tab1[9]== 9)
+		{
+			$('#kob').prop("checked",false);
+			$('#mez').prop("checked",true);
+			
+		}
+		else
+		{
+			$('#mez').prop("checked",false);
+			$('#kob').prop("checked",true);
+		}
+
 
     }
     else
