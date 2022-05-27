@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="White">
+    <Grid x:Name="Tlo">
+        <Button x:Name="Red" Background="Red"   BorderBrush="White" Foreground="White" Content="Red" HorizontalAlignment="Left" Margin="97,295,0,0" VerticalAlignment="Top" Width="94" Click="Red_Click" Height="48"/>
+        <Button Content="Green" Background="Green" BorderBrush="White" Foreground="White" HorizontalAlignment="Left" Margin="248,295,0,0" VerticalAlignment="Top" Width="82" Click="Button_Click" Height="48"/>
+        <Button Content="Blue" Background="Blue" BorderBrush="White" Foreground="White" HorizontalAlignment="Left" Margin="388,295,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.48,0.152" Width="86" Click="Button_Click_1" Height="48"/>
+        <Button Content="Randomize" HorizontalAlignment="Left" Margin="667,295,0,0" VerticalAlignment="Top" Width="86" Click="Button_Click_2" Height="48"/>
+        <Button Content="Reset" Background="White" HorizontalAlignment="Left" Margin="559,295,0,0" VerticalAlignment="Top" Width="62" Click="Button_Click_3" RenderTransformOrigin="0.64,1.305" Height="48"/>
+        <TextBlock x:Name="Label" Background="White"  HorizontalAlignment="Left" Margin="152,16,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.71,-1.063" Width="438" FontSize="20" Height="59" FontWeight="Bold"/>
+        <Button x:Name="tapeta1" Content="Windows XP" HorizontalAlignment="Left" Margin="636,68,0,0" VerticalAlignment="Top" Width="136" Height="29" Click="tapeta1_Click"/>
+        <Button x:Name="tapeta2" Content="Windows 10" HorizontalAlignment="Left" Margin="636,23,0,0" VerticalAlignment="Top" Height="29" Width="136" Click="tapeta2_Click"/>
+        <Button x:Name="tapeta3" Content="Windows 95" HorizontalAlignment="Left" Margin="636,116,0,0" VerticalAlignment="Top" Height="28" Width="136" Click="tapeta3_Click"/>
+        <Button x:Name="randomtapeta" Content="Random" HorizontalAlignment="Left" Margin="636,162,0,0" VerticalAlignment="Top" Height="25" Width="136" Click="randomtapeta_Click"/>
+
+    </Grid>
+</Window>

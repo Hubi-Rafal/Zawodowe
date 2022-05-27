@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "BzVtHt3zFq6XZJr/cKojPuTyeTIgtGZv3pfh+dIOgXFP0C3JEyyVNW7cS4WAitNR2eH9YSvHsbj0aF0wVLWO0w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Programowanie\\source\\repos\\Lotto\\Lotto\\Lotto.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Programowanie\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Programowanie\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Programowanie\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Programowanie\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Programowanie\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

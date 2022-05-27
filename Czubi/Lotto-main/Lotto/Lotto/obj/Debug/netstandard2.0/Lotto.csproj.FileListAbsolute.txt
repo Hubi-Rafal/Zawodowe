@@ -1,0 +1,15 @@
+C:\Users\Programowanie\source\repos\Lotto\Lotto\bin\Debug\netstandard2.0\Lotto.deps.json
+C:\Users\Programowanie\source\repos\Lotto\Lotto\bin\Debug\netstandard2.0\Lotto.dll
+C:\Users\Programowanie\source\repos\Lotto\Lotto\bin\Debug\netstandard2.0\Lotto.pdb
+C:\Users\Programowanie\source\repos\Lotto\Lotto\obj\Debug\netstandard2.0\Lotto.csproj.AssemblyReference.cache
+C:\Users\Programowanie\source\repos\Lotto\Lotto\obj\Debug\netstandard2.0\Lotto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Programowanie\source\repos\Lotto\Lotto\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Programowanie\source\repos\Lotto\Lotto\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Programowanie\source\repos\Lotto\Lotto\obj\Debug\netstandard2.0\Lotto.AssemblyInfoInputs.cache
+C:\Users\Programowanie\source\repos\Lotto\Lotto\obj\Debug\netstandard2.0\Lotto.AssemblyInfo.cs
+C:\Users\Programowanie\source\repos\Lotto\Lotto\obj\Debug\netstandard2.0\Lotto.csproj.CoreCompileInputs.cache
+C:\Users\Programowanie\source\repos\Lotto\Lotto\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Programowanie\source\repos\Lotto\Lotto\obj\Debug\netstandard2.0\Lotto.dll
+C:\Users\Programowanie\source\repos\Lotto\Lotto\obj\Debug\netstandard2.0\refint\Lotto.dll
+C:\Users\Programowanie\source\repos\Lotto\Lotto\obj\Debug\netstandard2.0\Lotto.pdb
+C:\Users\Programowanie\source\repos\Lotto\Lotto\obj\Debug\netstandard2.0\ref\Lotto.dll

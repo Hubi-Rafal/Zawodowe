@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lotto.MainPage">
+
+    <Grid>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Entry x:Name="e1" Grid.Row="0" Grid.Column="0" Placeholder="LIczba 1"></Entry>
+        <Entry x:Name="e2" Grid.Row="0" Grid.Column="1" Placeholder="LIczba 2"></Entry>
+        <Entry x:Name="e3" Grid.Row="0" Grid.Column="2" Placeholder="LIczba 3"></Entry>
+
+        <Entry x:Name="e4" Grid.Row="1" Grid.Column="0" Placeholder="LIczba 4"></Entry>
+        <Entry x:Name="e5" Grid.Row="1" Grid.Column="1" Placeholder="LIczba 5"></Entry>
+        <Entry x:Name="e6" Grid.Row="1" Grid.Column="2" Placeholder="LIczba 6"></Entry>
+
+        <Button x:Name="Guziczek" Grid.Row="2" Grid.Column="1" Margin="20" Text="Losuj" Clicked="Guziczek_Clicked"></Button>
+
+        <Label x:Name="Wyniki" Grid.Row="3" HorizontalTextAlignment="Center" TextColor="black" Grid.ColumnSpan="3">Liczby Trafione: </Label>
+        <Label x:Name="NieWyniki" Grid.Row="4" HorizontalTextAlignment="Center" TextColor="black" Grid.ColumnSpan="3">Liczby Nietrafione: </Label>
+        
+    </Grid>
+
+</ContentPage>

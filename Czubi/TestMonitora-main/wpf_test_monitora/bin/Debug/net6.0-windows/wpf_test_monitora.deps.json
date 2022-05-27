@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "wpf_test_monitora/1.0.0": {
+        "runtime": {
+          "wpf_test_monitora.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "wpf_test_monitora/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
