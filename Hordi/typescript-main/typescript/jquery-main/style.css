@@ -1,0 +1,23 @@
+input.invalid, textarea.invalid{
+    border: 3px solid red;
+}
+ 
+input.valid, textarea.valid{
+    border: 3px solid green;
+}
+input{
+    border:2px solid black;
+}
+.formularz
+{
+    color:white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 25px;
+    padding:10px;
+    background-color: orange;
+    margin:auto;
+    width:60%;
+    height:100%;
+    text-align:center;
+}
+

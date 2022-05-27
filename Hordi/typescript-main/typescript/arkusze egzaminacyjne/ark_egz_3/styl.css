@@ -1,0 +1,52 @@
+.banner{
+    background-color: #18FFA4;
+    height:50px;
+}
+
+.left{
+    background-color: #AEFFCF;
+    width:30%;
+    height:550px;
+float:left;
+}
+.middle{
+    background-color: #DDFFCD;
+    height:550px;
+    width:40%;float:left;
+
+}
+.right{
+    background-color: #AEFFCF;
+    height:550px;
+    width:30%;float:left;
+}
+
+.stopka
+{
+    height:50px;
+    text-align: center;
+    background-color: #18FFA4;
+    clear:both;
+}
+
+ul{
+    margin-left: 100px;
+}
+
+img{
+    margin:100px;
+
+}
+form{
+    margin-left: 150px;
+}
+h4{
+    margin-left: 100px;
+}
+
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}

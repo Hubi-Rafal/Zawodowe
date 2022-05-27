@@ -1,0 +1,11 @@
+Kwerenda 1:
+INSERT INTO wynik SET bmi_id=1, data_pomiaru="2020-05-20", wynik=15;
+
+Kwerenda 2:
+SELECT id, informacja, wart_min FROM bmi;
+
+Kwerenda 3:
+SELECT wynik.wynik, bmi.informacja FROM wynik, bmi WHERE bmi.id=wynik.bmi_id;
+
+Kwerenda 4:
+SELECT wart_min, wart_max FROM bmi WHERE informacja="niedowaga";

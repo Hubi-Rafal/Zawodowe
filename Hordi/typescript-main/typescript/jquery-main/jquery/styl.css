@@ -1,0 +1,32 @@
+h2
+{
+    font-family: arial;
+}
+
+#container{
+    width:700px;
+    margin:0 auto;
+}
+
+#page{
+    font-size:150%;
+    text-align:center;
+    padding:20px;
+    border:1px solid black;
+    background-color: white;
+}
+ul{
+    margin:20px;
+
+}
+li{
+    padding:5px;
+    margin-bottom:2px;
+}
+
+
+.kontener{
+    width:60%;
+    height:120px;
+    background-color:gray ;
+}

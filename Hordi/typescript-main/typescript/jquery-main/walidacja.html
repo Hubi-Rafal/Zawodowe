@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div class="formularz">
+        <form id="formularz" method="post" action="">
+        
+            <div>
+                
+                <label for="nick">Nazwa Użytkownika:</label><br>
+                <input type="text" id="nick" name="nick"></input>
+                    <br><br>
+
+                <label for="pass">Hasło:</label><br>
+                <input type="password" id="pass" name="pass"></input>
+                    <br><br>
+    
+                <label for="ppass">Potwierdź Hasło:</label><br>
+                <input type="password" id="ppass" name="ppass"></input>
+                    <br><br>
+
+                <label for="name">Imię:</label><br>
+                <input type="text" id="name" name="name"></input>
+                    <br><br>
+                
+                
+                <label for="lname">Nazwisko:</label><br>
+                <input type="text" id="lname" name="lname"></input>
+                    <br><br>
+
+                <label for="mail">E-mail:</label><br>
+                <input type="text" id="mail" name="mail"></input>
+                    <br><br>
+
+                <label for="pesel">PESEL:</label><br>
+                <input type="number" id="pesel" name="pesel"></input>
+                    <br><br>
+
+                <label for="data">Data Urodzenia:</label><br>
+                <input type="date" id="data" name="data" disabled></input>
+                <br><br>
+                
+                <label for="plec">Płeć:</label><br>
+                
+                
+                <input type="radio" value="M" name="chuj" id="mez"><label for="mez">Mężczyzna</label><br>
+                <input type="radio" value="K" name="chuj" id="kob"><label for="kob">Kobieta</label><br>
+            </div>
+
+            <div id="submit">             
+                <button type="submit">Wyślij</button>
+            </div>
+
+        </form>
+    </div>
+
+
+
+
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="walidacja.js"></script>
+</body>
+</html>

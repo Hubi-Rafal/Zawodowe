@@ -1,0 +1,65 @@
+.banner
+{
+    text-align: center;
+    color:white;
+    height:370px;
+}
+.blok
+{
+    width:auto;
+    color:white;
+    text-align:center;
+    width:200px;
+    margin:10px;
+    border:1px solid black;
+    border-radius:10px;
+    float:left;
+}
+.blok:hover
+{
+    border-color:white;
+}
+.mecze
+{
+    width:100%;
+    height:auto;
+}
+
+.blok_glwn
+{
+    clear:both;
+
+    background-color: whitesmoke;
+    height:50px;
+    text-align: center;
+    position:flex;
+}
+
+.blok_prw
+{
+
+    background-color: whitesmoke;
+    width:30%;
+    height:230px;
+    text-align:right;   
+    float:left;
+}
+.blok_lw
+{
+ 
+    width:70%;
+    height:230px;
+    background-color: whitesmoke;
+    float:left;
+}
+
+h2{
+    text-align:center;
+    letter-spacing: 7px;
+    text-transform:capitalize;
+}
+
+body{
+    background-color:crimson;
+    font-family:Tahoma;
+}
