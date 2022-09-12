@@ -1,0 +1,89 @@
+x = int(input("Podaj liczbe: "))
+liczba = 0
+if x%2==1:
+  liczba += x
+  print(liczba)
+
+#************ 1 ************
+for liczba in range(1,11):
+  print(liczba)
+
+for liczba in range(11):
+  print(liczba)
+
+#************ 2 ************
+for liczba in range(2,11,2):
+  print(liczba)
+
+#************ 3 ************
+for liczba in range(5,26,5):
+  print(liczba)
+
+#************ 4 ************
+for liczba in range(100,49, -1):
+  print(liczba)
+
+#************ 5 ************
+y = int(input("Podaj Liczbe: "))
+for liczba in range(0,y+1):
+  print(liczba)
+
+#************ 6 ************
+x = int(input("Podaj Liczbę: "))
+y = int(input("Podaj Liczbę: "))
+for liczba in range(x,y+1):
+  print(liczba)
+#************ 7 ************
+
+liczba = 1
+while liczba<=20:
+  print(liczba)
+  liczba+=1
+
+#************ 8 ************
+liczba=100
+while liczba>=50:
+  print(liczba)
+  liczba-=1
+
+#************ 9 ************
+liczba=5
+while liczba<=100:
+  print(liczba)
+  liczba+=5
+
+#************ 10 ************
+x = 0
+y = int(input("Podaj Liczbe: "))
+        
+while x<=y:
+  print(x)
+  x+=1
+
+#************ 11 ************
+x = int(input("Podaj x: "))
+y = int(input("Podaj y: "))
+while x<=y:
+  print(x)
+  x+=1
+
+#************ 1 ************
+x = int(input("Podaj liczbe dodatnią: "))
+while 1==1:
+  if x>0: 
+    print("brawo :))")
+    break
+  else:
+    x = int(input("To nie jest liczba dodatnia. Podaj liczbe dodatnią: "))
+
+#************ 2 ************
+
+x = int(input("Podaj x: "))
+y = int(input("Podaj y: "))
+liczba = 0
+
+while i in range(x, y):
+  if i%2==1:
+    liczba+=1
+  i+=1
+print(liczba)
