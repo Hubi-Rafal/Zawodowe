@@ -34,3 +34,73 @@ suma = 0
 for i in range(x+1):
   suma+=i
 print(suma)
+
+
+
+
+
+
+#******************* 1 *******************
+a = int(input("Podaj a: "))
+b = int(input("Podaj b: "))
+
+if a>b:
+  a,b = b,a
+
+for liczba in range(a,b+1):
+  print(liczba, end=" ")
+  
+for liczba in range(b, a-1, -1):
+    print(liczba, end=" ")
+print("")
+
+#******************* 2 *******************
+
+x = int(input("Podaj limit: "))
+i = 0
+while i **2 < x+1:
+  print(i**2)
+  i+=1
+
+#******************* 3 *******************
+
+a = int(input("Podaj A: "))
+b = int(input("Podaj B: "))
+xp = int(input("Podaj XP: "))
+xk = int(input("Podaj XK: "))
+
+for i, x in enumerate(range(xp, xk+1)):
+  y = (a*x)+b
+  print(i, "Y = ",y)
+
+#******************* 4 *******************
+x = int(input("Podaj liczbę silniowaną: "))
+silnia = 1
+for i in range(1, x+1):
+  silnia *= i
+print(silnia)
+
+#******************* 5 *******************
+
+
+#******************* 6 *******************
+
+x = int(input("Podaj X: "))
+y = int(input("Podaj Y: "))
+
+if x<=0 or y<=0:
+  exit()
+else:
+  potega = x**y
+  print(potega)
+
+#******************* 7 *******************
+m = int(input("Podaj M: "))
+
+
+sranie = 3 
+while sranie < m:
+  sranie *= 3
+  print(sranie, end=" ")
+    
+    
