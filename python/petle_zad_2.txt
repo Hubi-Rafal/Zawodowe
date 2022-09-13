@@ -1,0 +1,36 @@
+#*************** 1 ***************
+y = int(input("Podaj pierwszą granicę przedziału: "))
+z = int(input("Podaj drugą granicę przedziału: "))
+x = int(input("Podaj Dzielnik: "))
+
+for i in range(y, z):
+  if i % x == 0:
+    print(i)
+
+#*************** 2 ***************
+
+x = int(input("Podaj liczbę: "))
+if x<0:
+  for i in range(x,0):
+    if i % 2 == 0:
+      print(i, end=", ")
+elif x>0:
+  for i in range(x,0, -1):
+    if i % 2 == 0:
+      print(i, end=", ")
+
+#*************** 3 ***************
+
+x = int(input("Podaj liczbę potęg: "))
+
+while i<x:
+  print(2**i)
+  i+=1
+
+#*************** 4 ***************
+x = int(input("Podaj ilość liczb ciągu"))
+suma = 0
+
+for i in range(x+1):
+  suma+=i
+print(suma)
