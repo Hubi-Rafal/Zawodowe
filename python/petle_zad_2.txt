@@ -104,3 +104,22 @@ while sranie < m:
   print(sranie, end=" ")
     
     
+ 
+ #************** 1 **************
+
+liczba = int(input("Podaj liczbe: "))
+
+for x in range(1,liczba+1):
+  print(x," * ",liczba, " = ",x*liczba)
+
+
+#************** 2 **************
+print()
+print()
+
+z = 10
+for x in range(1,z):
+  for y in range(0,x):
+    print(x, end="")
+  print()
+    
