@@ -1,0 +1,35 @@
+def zad1(a,h):
+  pole = (a*h)/2
+  print(pole)
+zad1(10,2)
+print()
+def zad2(netto, vat):
+  brutto = netto*vat
+  print(brutto)
+zad2(521, 0.22)
+print()
+def zad3(nazwisko = "Rafal"):
+  for x in range(len(nazwisko)):
+    print(nazwisko)
+zad3()
+print()
+def zad4(x,y):
+  if x>y:
+    print(x/y)
+  else:
+    print(y/x)
+zad4(10,20)
+print()
+
+  
+def zad5(n):
+  suma = 1
+  for x in range(1,n):
+    suma += (x**2)
+
+  print(suma)
+
+zad5(10)
+
+print()
+
