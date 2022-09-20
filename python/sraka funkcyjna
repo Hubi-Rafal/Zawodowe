@@ -1,0 +1,45 @@
+import random
+import math
+"""
+print(random.random())
+maximum = 100
+print(random.random()*maximum)
+minimum = 60
+print(random.random()*(maximum-minimum)+minimum)"""
+
+print("************ Zadanie 1 ************")
+for i in range(10):
+  print(random.random()*(100-20) + 20)
+
+print("************ Zadanie 2 ************")
+szukana = random.randint(1,1000)
+
+proby = 0
+print(szukana)
+guess = int(input("Podaj liczbę z zakresu <1,1000>: "))
+
+while guess != szukana:
+  if guess>szukana:
+    proby+=1
+    print("Poszukiwana liczba jest mniejsza")
+    guess = int(input("Podaj liczbę z zakresu <1,1000>: "))
+  elif guess<szukana:
+    proby+=1
+    print("Poszukiwana liczba jest większa")
+    guess = int(input("Podaj liczbę z zakresu <1,1000>: "))
+if guess==szukana:
+  print("Gratulacje, znalazłeś liczbe")
+print()    
+print("************ Zadanie 3 ************")
+
+s = 0
+
+for x in range(1000):
+  
+  a = random.randrange(1, 1000000000)
+  b = random.randrange(1, 1000000000)
+  
+  if math.gcd(a,b)==1:
+    s += 1
+
+print(f"P = {s}/1000 = {s/1000}")
