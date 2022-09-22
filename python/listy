@@ -1,0 +1,66 @@
+print("*********** Zadanie 1 ***********")
+
+def Zadanie1(x):
+  list = []
+  
+  i = 1
+  for i in range(1,6):
+    dod = x*i
+    list.append(dod)
+  print(list)
+x = int(input("Podaj liczbe: "))
+Zadanie1(x)
+
+print("*********** Zadanie 2 ***********")
+
+def Zadanie2(x, y):
+  list2 = []
+  i=1
+  for i in range(x,y):
+    if i % 2==0:
+      list2.append(i)
+    list2.sort(reverse=True)
+  print(list2)
+
+a = int(input("Podaj 1 liczbe: "))
+b = int(input("Podaj 2 liczbe: "))
+Zadanie2(a,b)
+
+print("*********** Zadanie 3 ***********")
+
+def Zadanie3(x, y):
+  list3 = []
+  i=1
+  for i in range(x,y):
+    if i % 2==1:
+      list3.append(i)
+    list3.sort(reverse=True)
+  print(list3)
+
+
+a = int(input("Podaj 1 liczbe: "))
+b = int(input("Podaj 2 liczbe: "))
+Zadanie3(a,b)
+
+print("*********** Zadanie 4 ***********")
+def Zadanie4(n):
+  list4 = []
+  for i in range(1,n):
+    list4.append(i**2)
+  if n==1:
+    list4 = null
+  print(list4)
+
+n = int(input("Podaj 1 liczbe: "))
+Zadanie4(n)
+
+print("*********** Zadanie 4 ***********")
+def Zadanie5(n):
+  list5 = []
+  for i in range(1,n):
+    if n%i==0:
+      list5.append(i)
+  print(list5)
+
+n = int(input("Podaj 1 liczbe: "))
+Zadanie5(n)
