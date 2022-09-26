@@ -1,0 +1,28 @@
+.prostokat{
+    background-color:blue;
+    width:200px;
+    height:150px;
+    float:left;
+    margin:0 20px;
+    border: 1px solid black;
+
+}
+
+#pierwsza{
+    background:blue;
+    height:60px;
+    width:60px;
+    border-radius: 100px;
+    left:50px;
+    top:600px;
+    position:absolute;
+}
+#druga{
+    background:red;
+    height:60px;
+    width:60px;
+    border-radius: 100px;
+    left:50px;
+    top:700px;
+    position:absolute;
+}
