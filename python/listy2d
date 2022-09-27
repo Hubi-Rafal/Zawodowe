@@ -1,0 +1,17 @@
+wyniki = [["Michu",20,50,70],["Seba",90,90,90],["Rafi",50,70,80]]
+
+print(wyniki[0])
+
+for uczniowie in wyniki:
+  for dane in uczniowie:
+    print(dane, end=" ")
+  print()
+
+i=0
+for uczniowie in wyniki:
+  suma = 0
+  for dane in range(1,len(uczniowie)):
+    suma = suma + uczniowie[dane]
+  srednia = suma/3
+  print(f"Uczen {wyniki[i][0]} uzyskał średnią {srednia}")
+  i+=1
