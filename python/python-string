@@ -1,0 +1,50 @@
+print('Hello, world!')
+napis = "Informatyk"
+print(napis.lower())
+
+napis = "Informatyk"
+print(napis.isupper())
+
+napis = "Informatyk"
+print(napis.upper())
+
+napis = "Informatyk"
+print(napis.swapcase())
+
+napis = "technik informatyk"
+print(napis.title())
+
+print("informatyk".isalpha())
+
+napis = "technik informatyk"
+print(napis.isalpha())
+
+napis = "informatyk2k"
+print(napis.isalpha())
+
+napis = "informatyk2k"
+print(napis.isalnum())
+
+napis = "informatyk-2k"
+print(napis.isalnum())
+
+print("informatyk".endswith("ty"))
+
+print("informatyk".find("o"))
+
+napis='Informatyk'
+print(napis.replace('o','0'))
+
+print("Technikinformatyk".replace('i','1',1))
+
+print("technik".index("ni"))
+
+napis = "technik informatyk"
+print(napis.count('t',3))
+
+print('informatyk'.center(20,'x'))
+
+print("NIE".join("informatyk"))
+
+x= "test".join(["A","B","C"])
+print(x)
