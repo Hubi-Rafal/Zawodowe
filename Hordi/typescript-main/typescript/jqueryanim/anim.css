@@ -1,0 +1,55 @@
+#green{
+    background-color:green;
+    width:50px;
+    height:50px;
+    float:left;
+    margin-left:400px;
+    margin-top:100px;
+    position:absolute;
+}
+.anim{
+    width:90px;
+    height:45px;
+    Font-family:sans-serif;
+    Color:Green;
+}
+#red{
+    background-color:red;
+    width:50px;
+    height:50px;
+    top:0px;
+    float:left;
+    
+    position:absolute;
+}
+#yellow{
+    width:50px;
+    height:50px;
+    background-color:yellow;
+    float:left;
+    margin-left:400px;
+    
+    position:absolute;
+}
+#blue{
+    width:50px;
+    height:50px;
+    background-color:blue;
+    float:left;
+    margin-top:100px;
+    position:absolute;
+}
+
+#container{
+    width:23.6%;
+    height:210px;
+    transition: 1000ms ease;
+
+}
+#container2{
+    width:23.6%;
+    height:210px;
+    margin: 0 auto;
+    position:fixed;
+    transition: 1000ms ease;
+}
