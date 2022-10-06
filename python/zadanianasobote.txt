@@ -1,0 +1,123 @@
+#********************************
+print("****** Zadanie 1 ******")
+
+tekst = input("> ")
+print(len(tekst))
+
+#******************************** XXXXXXX
+print("****** Zadanie 2 ******")
+
+#********************************
+print("****** Zadanie 3 ******")
+
+tekst = input("> ")
+
+print(tekst[:2])
+print(tekst[-2:])
+
+#********************************
+print("****** Zadanie 4 ******")
+
+tekst = list(input("> "))
+y = 1
+for char in tekst:
+  
+  for i in range(len(tekst)):
+    y+=1
+    if tekst[i] == char:
+      if char=="@":
+        continue
+      tekst[i] = "@"
+  print(char,end="")
+print()
+
+#********************************
+print("****** Zadanie 5 ******")
+
+imie = list(input("> "))
+nazwisko = list(input("> "))
+
+imie[0],nazwisko[0] = nazwisko[0],imie[0]
+imie[1],nazwisko[1] = nazwisko[1],imie[1]
+print(''.join(imie))
+print(''.join(nazwisko))
+
+#********************************
+print("****** Zadanie 6 ******")
+
+zdanie = input("> ")
+
+zdanie = zdanie.split(" ")
+i=0
+
+for slowo in zdanie:
+  if slowo == "tak":
+    zdanie[i] = "nie"
+  elif slowo == "nie":
+    zdanie[i] = "tak"
+  i+=1
+print(' '.join(zdanie))
+
+#******************************** XXXXXX
+print("****** Zadanie 7 ******")
+
+sent = input("> ")
+najdl = ""
+i=1
+
+#******************************** 
+print("****** Zadanie 8 ******")
+zdanie = list(input("> "))
+
+for i in range(1,len(zdanie),3):
+  print(zdanie[i],end="")
+
+  
+#******************************** 
+print("****** Zadanie 9 ******")
+
+zdanie = list(input("> "))
+
+for i in range(len(zdanie)):
+  if i%2==1:
+    zdanie[i] = ""
+
+print(''.join(zdanie))
+
+#******************************** 
+print("****** Zadanie 10 ******")
+
+zdanie = input("> ").upper()
+
+print(zdanie[::-1])
+
+#******************************** 
+print("****** Zadanie 11 ******")
+
+zdanie = input("> ")
+zdanie = zdanie.split(" ")
+i=0
+for slowo in zdanie:
+  if len(slowo)%3==0:
+    zdanie[i] = slowo[::-1]
+  i+=1
+
+print(' '.join(zdanie))
+
+#******************************** 
+print("****** Zadanie 12 ******")
+
+zdanie = list(input("> "))
+zdanie.sort()
+print("".join(zdanie))
+
+#******************************** XXXXXX
+print("****** Zadanie 13 ******")
+
+#******************************** 
+print("****** Zadanie 14 ******")
+
+zdanie = input("> ")
+
+for index,i in enumerate(zdanie):
+  print(f"Znak {i} posiada indeks {index}")
