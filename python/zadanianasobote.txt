@@ -21,7 +21,6 @@ print("****** Zadanie 4 ******")
 tekst = list(input("> "))
 y = 1
 for char in tekst:
-  
   for i in range(len(tekst)):
     y+=1
     if tekst[i] == char:
@@ -121,3 +120,22 @@ zdanie = input("> ")
 
 for index,i in enumerate(zdanie):
   print(f"Znak {i} posiada indeks {index}")
+
+#******************************** XXXXXX
+print("****** Zadanie 15 ******")
+
+
+#******************************** XXXXXX
+print("****** Zadanie 16 ******")
+
+ciag = input("> ")
+
+y=0
+for char in ciag:
+  for i in range(len(ciag)):
+    y+=1
+    if tekst[i] == char:
+      if char=="":
+        continue
+      tekst[i] = ""
+  print(char,end="")
