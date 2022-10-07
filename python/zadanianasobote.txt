@@ -137,5 +137,79 @@ for char in ciag:
     if tekst[i] == char:
       if char=="":
         continue
-      tekst[i] = ""
+      tekst[i] = null
   print(char,end="")
+
+#******************************** 
+print("****** Zadanie 17 ******")
+
+ciag = input("> ")
+
+y = 1
+for char in ciag:
+  for i in range(len(ciag)):
+    y+=1
+    if ciag[i] == char:
+      print(ciag[i])
+      stop = 1
+      break
+  if stop == 1:
+    break
+
+#******************************** 
+print("****** Zadanie 18 ******")
+
+ciag = list(input("> "))
+
+for char in ciag:
+  if char.isspace():
+    ciag.remove(char)
+print(''.join(ciag))
+
+#******************************** 
+print("****** Zadanie 19 ******")
+
+ciag = list(input("> "))
+i = 0
+for i in range(len(ciag)):
+  if ciag[i]=='a':
+    ciag.insert(0, ciag.pop(i))
+  
+print(''.join(ciag))
+
+#******************************** XXXXXX
+print("****** Zadanie 20 ******")
+
+zdanie = input("> ")
+
+#******************************** 
+print("****** Zadanie 21 ******")
+
+zdanie = input("> ")
+licznik = 0
+for slowo in zdanie:
+  licznik += 1
+print(f"W podanym zdaniu jest {licznik} wyrazów")
+
+#******************************** 
+print("****** Zadanie 22 ******")
+
+zdanie = input("> ").split()
+najdl = max(zdanie,key=len)
+najkr = min(zdanie,key=len)
+
+print(f"Najdłuższe słowo w zdaniu to '{najdl}'")
+print(f"Najkrótsze słowo w zdaniu to '{najkr}'")
+
+#******************************** 
+print("****** Zadanie 23 ******")
+
+ciag = list(input("> "))
+
+rev=ciag[:]
+rev.reverse()
+
+if ''.join(ciag) == ''.join(rev):
+  print(f"Wyraz {''.join(ciag)} jest palindromem")
+else:
+  print(f"Wyraz {''.join(ciag)} nie jest palindromem")
