@@ -57,12 +57,21 @@ for slowo in zdanie:
   i+=1
 print(' '.join(zdanie))
 
-#******************************** XXXXXX
+#******************************** 
 print("****** Zadanie 7 ******")
 
-sent = input("> ")
-najdl = ""
+zdanie = input("> ").split(" ")
+
+najdl = zdanie[0]
+
 i=1
+for slowo in zdanie:
+  for i in range(len(zdanie)):
+    if len(zdanie[i])>len(najdl):
+      najdl = zdanie[i]
+
+print(najdl)
+
 
 #******************************** 
 print("****** Zadanie 8 ******")
@@ -110,8 +119,15 @@ zdanie = list(input("> "))
 zdanie.sort()
 print("".join(zdanie))
 
-#******************************** XXXXXX
+#********************************
 print("****** Zadanie 13 ******")
+
+zdanie = input("> ")
+zdanie = zdanie.upper()
+rule = str.maketrans('AĄBCĆDEĘFGHIJKLŁMNŃOÓPRSŚTUWYZŹŻ', 'CĆDEĘFGHIJKLŁMNŃOÓPRSŚTUWYZŹŻAĄB')
+zdanie = zdanie.translate(rule)
+
+print(zdanie)
 
 #******************************** 
 print("****** Zadanie 14 ******")
@@ -120,25 +136,25 @@ zdanie = input("> ")
 
 for index,i in enumerate(zdanie):
   print(f"Znak {i} posiada indeks {index}")
-
-#******************************** XXXXXX
+  
+  
+#******************************** 
 print("****** Zadanie 15 ******")
+
+alfabet1 = ['A','Ą','B','C','Ć','D','E','Ę','F','G','H','I','J','K','L','Ł','M','N','Ń','O','Ó','P','R','S','Ś','T','U','W','Y','Z','Ź','Ż']
+print(''.join(alfabet1))
+zdanie = list(input("> ").upper())
+
+for litera in zdanie:
+  index = alfabet1.index(litera)
+  del alfabet1[index]
+  
+print(''.join(alfabet1))
 
 
 #******************************** XXXXXX
 print("****** Zadanie 16 ******")
 
-ciag = input("> ")
-
-y=0
-for char in ciag:
-  for i in range(len(ciag)):
-    y+=1
-    if tekst[i] == char:
-      if char=="":
-        continue
-      tekst[i] = null
-  print(char,end="")
 
 #******************************** 
 print("****** Zadanie 17 ******")
@@ -177,10 +193,14 @@ for i in range(len(ciag)):
   
 print(''.join(ciag))
 
-#******************************** XXXXXX
+#******************************** 
 print("****** Zadanie 20 ******")
 
 zdanie = input("> ")
+
+zdanie = ' '.join(map(lambda s: s[:-1]+s[-1].upper(), zdanie.title().split()))
+
+print(zdanie)
 
 #******************************** 
 print("****** Zadanie 21 ******")
