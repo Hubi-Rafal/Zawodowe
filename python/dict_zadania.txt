@@ -1,0 +1,66 @@
+#**************************
+print("Zadanie 1")
+slownik = {'1':'123','2':'234','3':'345'}
+slownik['4'] = '456'
+print(slownik)
+#**************************
+print("Zadanie 2")
+
+slownik1 = {'1':'ab'}
+slownik2 = {'2':'cd'}
+slownik3 = {'3':'ef'}
+
+slownik4 = {**slownik1, **slownik2, **slownik3}
+
+print(slownik4)
+
+
+#**************************
+print("Zadanie 3")
+
+
+slownik = {"klucz": 10, "klucz1": 23}
+
+if "klucz1" in slownik:
+    print(f"Klucz1 istnieje")
+
+if "klucz2" in slownik:
+    print("Klucz2 nie istnieje")
+
+#**************************
+print("Zadanie 4")
+
+n = input("Podaj n: ")
+
+slownik = {}
+
+for i in range(int(n)):
+  slownik[f'klucz{i}'] = i**2
+
+print(slownik)
+
+#**************************
+print("Zadanie 5")
+
+slownik = {'klucz0': 0, 'klucz1': 90, 'klucz2': 4, 'klucz3': 36, 'klucz4': 16, 'klucz5': 25, 'klucz6': 9}
+
+najw = 0
+
+for i in range(len(slownik)):
+  if slownik[f'klucz{i}'] > najw:
+    najw = slownik[f'klucz{i}']
+
+print(f"Największą liczbą jest {najw}")
+
+#**************************
+print("Zadanie 6")
+slownik1 = {'klucz0': 0, 'klucz1': 90, 'klucz2': 4, 'klucz3': 36, 'klucz4': 16, 'klucz5': 25, 'klucz6': 20}
+suma = 0
+for i in range(len(slownik1)):
+  suma += slownik1[f'klucz{i}']
+
+print("Suma = ",suma)
+
+slownik = {'produkt1':40.99,'produkt2':25.00,'produkt3':19.99,'produkt4':100.00,'produkt5':43.69,'produkt6':69.99,'produkt7':29.20,'produkt8':'','produkt9':'','produkt10':''}
+#**************************
+print("Zadanie 7")
