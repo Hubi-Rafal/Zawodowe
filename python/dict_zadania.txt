@@ -52,6 +52,7 @@ for i in range(len(slownik)):
 
 print(f"Największą liczbą jest {najw}")
 
+
 #**************************
 print("Zadanie 6")
 slownik1 = {'klucz0': 0, 'klucz1': 90, 'klucz2': 4, 'klucz3': 36, 'klucz4': 16, 'klucz5': 25, 'klucz6': 20}
@@ -59,8 +60,14 @@ suma = 0
 for i in range(len(slownik1)):
   suma += slownik1[f'klucz{i}']
 
-print("Suma = ",suma)
+print("Suma wartości = ",suma)
 
-slownik = {'produkt1':40.99,'produkt2':25.00,'produkt3':19.99,'produkt4':100.00,'produkt5':43.69,'produkt6':69.99,'produkt7':29.20,'produkt8':'','produkt9':'','produkt10':''}
-#**************************
-print("Zadanie 7")
+slownik = {'produkt0':40.99,'produkt1':25.00,'produkt2':19.99,'produkt3':100.00,'produkt4':43.69,'produkt5':69.99,'produkt6':29.20,'produkt7':23.99,'produkt8':4.20,'produkt9':6.99}
+suma = 0
+
+licznik = 0
+for i in range(len(slownik)):
+  suma+=slownik[f'produkt{i}']
+  licznik+=1
+srednia = suma/licznik
+print(srednia)
