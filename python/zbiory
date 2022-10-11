@@ -1,0 +1,82 @@
+import random
+random.seed()
+
+x = random.randint(3,7)
+y = random.randint(3,7)
+zbiorx = set()
+zbiory = set()
+
+for i in range(x):
+  zbiorx.add(random.randint(0,10))
+
+for i in range(y):
+  zbiory.add(random.randint(0,10))
+
+print(zbiorx)
+print(zbiory)
+
+print("Zadanie 1")
+
+if (5 in zbiorx) == True:
+  print("Zbiór X zawiera liczbę 5")
+    
+print("Zadanie 2")
+
+if zbiorx.issubset(zbiory):
+  print("Zbiór X jest podzbiorem zbioru Y")
+
+print("Zadanie 3")
+
+if zbiory.issubset(zbiorx):
+  print("Zbiór Y jest podzbiorem zbioru X")
+
+print("Zadanie 4")
+
+if zbiorx.issuperset(zbiory):
+  print("Zbiór X jest nadzbiorem zbioru Y")
+
+print("Zadanie 5")
+
+if zbiory.issuperset(zbiorx):
+  print("Zbiór Y jest nadzbiorem zbioru X")
+
+print("Zadanie 6")
+
+print("Suma: ",zbiorx | zbiory)
+
+print("Zadanie 7")
+
+print("Różnica: ",zbiorx - zbiory)
+
+print("Zadanie 8")
+
+print("Różnica: ",zbiory - zbiorx)
+
+print("Zadanie 9")
+
+print("Różnica: ",zbiorx & zbiory)
+
+print("Zadanie 10")
+
+print("Różnica: ",zbiorx ^ zbiory)
+
+print("Zadanie 11")
+
+print("Max X: ",max(zbiorx))
+print("Max Y: ",max(zbiory))
+
+print("Zadanie 12")
+
+a = zbiorx.pop()
+zbiory.add(a)
+print(zbiorx)
+print(zbiory)
+
+print("Zadanie 13")
+
+print(zbiorx | zbiory)
+
+print("Zadanie 14")
+
+zbiorx.clear()
+zbiory.clear()
