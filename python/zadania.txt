@@ -1,0 +1,35 @@
+from random import randint
+import random
+import string
+
+n = int(input("> "))
+length = int(input("> "))
+lista = []
+
+letters = string.ascii_lowercase
+i=0
+for i in range(n):
+  randomnum = randint(1,length)
+  wynik = ''.join(random.choice(letters) for i in range(randomnum))
+  lista.append(wynik)
+
+krotka = tuple(lista)
+print(krotka)
+znaki = 0
+print("**** Zadanie 1 ****")
+for slowo in krotka:
+  znaki+=len(slowo)
+print(f"Ilość liter: {znaki}")
+
+print("**** Zadanie 2 ****")
+licznik = 0
+for slowo in krotka:
+  for litera in slowo:
+    if litera=='k':
+      licznik+=1
+print(f"Ilość liter k: {licznik}")
+
+print("**** Zadanie 3 ****")
+licznik = 0
+for slowo in krotka:
+  licznik += slowo.count("kt")
