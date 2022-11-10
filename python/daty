@@ -1,0 +1,31 @@
+from datetime import datetime, timedelta
+
+x = datetime.now()
+year = x.year
+
+
+print("********* Zadanie 1 *********")
+if (year%4==0 and year%100!=0) or year%400==0:
+  print(f"{year} to rok przestępny ")
+else:
+  print(f"{year} nie jest rokiem przestępnym")
+
+print("********* Zadanie 2 *********")
+d = x.today() - timedelta(days=7)
+print(d.strftime("%Y-%m-%d %H:%M"))
+
+print("********* Zadanie 3 *********")
+
+
+teraza25min = x + timedelta(minutes = 25)
+
+print(x.strftime("Tera = %H:%M:%S"))
+print(teraza25min.strftime("Zara = %H:%M:%S"))
+
+print("********* Zadanie 4 *********")
+
+print(x.strftime("%U"))
+
+print("********* Zadanie 5 *********")
+
+print("********* Zadanie 6 *********")
