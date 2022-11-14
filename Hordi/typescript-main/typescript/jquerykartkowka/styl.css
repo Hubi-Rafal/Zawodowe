@@ -1,0 +1,21 @@
+span{
+    position:absolute;
+    font-size: 60px;
+    transition: 500ms linear;
+    visibility: hidden;
+    top:40%;
+}
+.left{
+    left:10%;
+    
+}
+.right{
+    right:10%;
+}
+
+#butt{
+    position:absolute;
+    top:60px;
+    left:50%
+}
+
