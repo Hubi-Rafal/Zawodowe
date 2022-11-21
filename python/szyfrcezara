@@ -1,0 +1,7 @@
+tekst = input("> ").upper()
+
+alfabet = "AĄBCĆDEĘFGHIJKLŁMNŃOÓPRSŚTUWXYZŹŻ"
+szyfred = ""
+for i in tekst:
+  szyfred += alfabet[alfabet.index(i)+3]
+print(szyfred)
